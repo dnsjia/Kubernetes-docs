@@ -1,4 +1,5 @@
-# Kubernetes
+# Kubernetes 中文安装指南
 
+#### 版本跟随官网同步 v1.13.6
 
-＃ skectl 
+ 
