@@ -5,13 +5,30 @@
 虽然kubernetes部署方式多种多样，但是我们建议您使用二进制方式部署、这将更有利于您理解系统各组件交互原理和熟悉组件启动参数。有利用于查解决实际问题。
  
 
-文档基于
+文档基于:
   - Ubuntu 16.04
   - CentOS 7
   - Suse Linux
 
 其他系统需要读者自行替换部分命令;
 
+
+## 组件版本
+
+- kubernetes
+- etcd		
+- docker	
+- calico/node	
+- flannel
+- coredns
+- haproxy
+- keepalived	
+  - 附：集群用到的所有二进制文件已打包好供下载 [https://k8s.ziji.work](https://k8s.ziji.work)
+
+
+
+## 快速部署
+你可以使用Luban快速搭建kubernetes测试环境/开发环境/生产环境； https://github.com/dnsjia/LuBan
 
 
 
@@ -23,9 +40,12 @@
 - [kubernetes v1.11.4集群部署-安装教程](https://www.ziji.work/kubernetes/kubernetes-1-11-cluster-deployment.html) 二进制手工部署。
 
 
+
+
+
 ## 沟通交流
 
-- QQ交流群：548246072，微信公众号`自记小屋` | 搜索微信号`yeyuhack`，请备注（城市-github用户名），验证通过会加入群聊。
+- QQ交流群：548246072，微信公众号`自记小屋`，请备注（城市-github用户名），验证通过会加入群聊。
 
 Copyright 2019 micheng (safemonitor@outlook.com)
 
