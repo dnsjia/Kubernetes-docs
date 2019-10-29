@@ -5,6 +5,16 @@
 虽然kubernetes部署方式多种多样，但是我们建议您使用二进制方式部署、这将更有利于您理解系统各组件交互原理和熟悉组件启动参数。有利用于查解决实际问题。
  
 
+
+Note:
+1. **请不要把Breeze所在的部署主机加入部署集群主机列表**
+2. **为了避免包冲突，请使用纯净的CentOS Minimal安装出来的OS来部署集群**
+
+常见排错说明在此：
+https://www.ziji.work/kubernetes/kubernetes-question-answer-special.html
+
+
+
 文档基于:
   - Ubuntu 16.04
   - CentOS 7
