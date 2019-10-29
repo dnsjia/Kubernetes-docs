@@ -1,5 +1,8 @@
 # Kubernetes 中文安装指南
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/meituan/WMRouter/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+
 #### 文档版本定期与官网版本同时更新
   本项目致力于提供kubernetes集群二进制高可用部署文档，帮助运维/企业/快速落地k8s应用。同时讲解主要参数配置和生产环境注意事项；
 虽然kubernetes部署方式多种多样，但是我们建议您使用二进制方式部署、这将更有利于您理解系统各组件交互原理和熟悉组件启动参数。有利用于查解决实际问题。
